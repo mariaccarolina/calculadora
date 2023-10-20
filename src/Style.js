@@ -31,11 +31,19 @@ margin: 8px;
 }
 `
 
-export const Soma = styled.button`
+export const Btn = styled.button`
 border: none;
 padding: 10px 15px;
-color: #584754;
+ color: #6f5269;
 border-radius: 5px;
+margin: 5px;
+background-color: white;
+
+&:hover{
+    background-color:#e8e8e8 ;
+    color: #6f5269;
+    border: #6f5269 solid 1px;
+}
 `
 
 export const Resultado = styled.h2`
